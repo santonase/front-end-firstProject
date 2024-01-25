@@ -29,6 +29,7 @@ h2 {
 }
 
 .box {
+    display: inline-block;
     height: 300px;
     width: 300px;
     background-color: green;
@@ -38,6 +39,8 @@ h2 {
     border: 3px solid black;
     margin: 20px;
     padding: 20px;
+    z-index: 1;
+
 }
 
 /* elements:
@@ -56,4 +59,16 @@ img {
     display: block;
     margin: 0 auto;
     width: 500px;
+}
+
+.example {
+    position: relative;
+}
+
+.red {
+    position: absolute;
+    background-color: red;
+    left: 30px;
+    bottom: 30px;
+    z-index: 3;
 }
