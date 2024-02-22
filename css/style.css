@@ -1,0 +1,40 @@
+/* line 9, ../../../../../Users/sviatoslavbinovskyi/Desktop/PROJECTS/front-end_study/sass/style.sass */
+h1 {
+  color: blue;
+  font-size: 50px;
+}
+
+/* line 13, ../../../../../Users/sviatoslavbinovskyi/Desktop/PROJECTS/front-end_study/sass/style.sass */
+h2 {
+  color: blue;
+}
+
+/* line 16, ../../../../../Users/sviatoslavbinovskyi/Desktop/PROJECTS/front-end_study/sass/style.sass */
+.block {
+  background-color: #000;
+}
+
+/* line 18, ../../../../../Users/sviatoslavbinovskyi/Desktop/PROJECTS/front-end_study/sass/style.sass */
+.block h3 {
+  color: blue;
+}
+
+/* line 20, ../../../../../Users/sviatoslavbinovskyi/Desktop/PROJECTS/front-end_study/sass/style.sass */
+.block_color {
+  background-color: #fff;
+}
+
+/* line 22, ../../../../../Users/sviatoslavbinovskyi/Desktop/PROJECTS/front-end_study/sass/style.sass */
+.block_color button {
+  display: block;
+  width: 250px;
+  height: 250px;
+  background-color: green;
+}
+
+/* line 24, ../../../../../Users/sviatoslavbinovskyi/Desktop/PROJECTS/front-end_study/sass/style.sass */
+.block .block_color {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
