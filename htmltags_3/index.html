@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1.0"> <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>htmltags_3</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+       <div>
+        <p>Name</p>
+        <input placeholder="Name" tabindex="1" name="username" type="text">
+       </div>
+       <div>
+        <p>Password</p>
+        <input tabindex="2" name="userpass" type="password">
+       </div>
+       <div>
+        <p>Phone:</p>
+        <input tabindex="3" name="userphone" type="tel">
+       </div>
+       <div>
+        <p>Gender:</p>
+        <div>
+            <input tabindex="4" checked type="radio" name="Gender" value="male"> Male
+        </div>
+        <div>
+            <input tabindex="4" type="radio" name="Gender" value="male"> Female
+        </div>
+       </div>
+       <div>
+        <p>Property:</p>
+        <div>
+            <input tabindex="5" checked type="checkbox" name="bike" value="yes"> bike
+        </div>
+        <div>
+            <input tabindex="6" type="checkbox" name="car" value="yes"> car
+        </div>
+        <div>
+            <input tabindex="7" disabled type="checkbox" name="flat" value="yes"> flat
+        </div>
+       </div>
+       <div>
+        <p>additional information:</p>
+        <textarea tabindex="8" name="text"></textarea>
+       </div>
+       <div>
+        <p>attach photo:</p>
+        <input tabindex="9" name="userphoto" type="file">
+       </div>
+       <div>
+        <p>favorite color:</p>
+        <select tabindex="10" name="color">
+            <option value="red">red</option>
+            <option selected value="green">green</option>
+            <option value="blue">blue</option>
+        </select>
+       </div>
+       <div>
+        <p>Actions:</p>
+        <button tabindex="11" type="submit">submit</button>
+        <button tabindex="12" type="reset">reset</button>
+       </div>
+    </form>
+</body>
+</html>
