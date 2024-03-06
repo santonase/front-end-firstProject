@@ -1,0 +1,28 @@
+@import url(/css/reset.css);
+
+span.bigred {
+    font-size: 20px;
+    color: green;
+}
+
+.bigred {
+    font-size: 30px;
+    color: red;
+}
+
+.bigred span {
+    color:aqua;
+}
+
+div > div > p {
+    color: blue;
+}
+
+div > p {
+    color: violet;
+}
+
+div > div,
+div > p > span.bigred {
+    border: 1px solid #000;
+}
