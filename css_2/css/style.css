@@ -1,58 +1,80 @@
-@import url(/css/reset.css);
+@import url(/css_2/css/reset.css);
 
-.arial {
+body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 54px 51px;
 }
 
-.fz30 {
+h1 {
+    color: #445161;
     font-size: 30px;
+}
+
+h2 {
+    color: #445161;
+    font-size: 25px;
+}
+
+.text {
+    color: #333333;
+    line-height: 25px;
+}
+
+.bold {
+    color: #333333;
+    font-weight: 700;
+}
+
+.red {
+    color: #ff0000;
+}
+
+h3 {
+    color: #445161;
+    font-size: 20px;
+}
+
+.right {
+    text-align: right;
+    color: #333333;
+}
+
+.uppercase {
+    color: #333333;
+    text-transform: uppercase;
 }
 
 .italic {
     font-style: italic;
+    color: #333333;
 }
 
-.font700 {
-    font-weight: 700;
+.underline {
+    text-decoration: underline;
+    color: #333333;
 }
 
-.color_red {
-    color: red;
+.center {
+    text-align: center;
+    color: #333333;
 }
 
-.textright {
-    text-align: justify;
+.fz24 {
+    color: #333333;
+    font-size: 24px;
 }
 
-.decoration {
+.through-line {
     text-decoration: line-through;
+    color: #333333;
+}
+
+.newroman {
+    color: #333333;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .shadow {
-    text-shadow: 1px 1px 1px #000;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.ident {
-    text-indent: 50px;
-}
-
-.spacing {
-    letter-spacing: 5px;
-}
-
-.wspace {
-    word-spacing: 15px;
-}
-
-.whs {
-    font-size: 50px;
-    white-space: nowrap;
-}
-
-.lineheight {
-    line-height: 40px;
+    color: #333333;
+    text-shadow: 1px 2px 2px #333333;
 }
