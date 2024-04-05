@@ -1,0 +1,35 @@
+/* FONTS */
+@import url(fonts.css);
+
+/* reset style */
+@import url("reset.css");
+
+.block {
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.block > div {
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.block__1 {
+    background-color: blue;
+    /* visibility: hidden; */
+}
+
+.block__2 {
+    background-color: green;
+    /* visibility: hidden; */
+    position: sticky;
+    width: 100%;
+    top: 0;
+
+}
+
+.block__3 {
+    background-color: yellow;
+}
